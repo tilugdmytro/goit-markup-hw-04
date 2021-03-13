@@ -130,7 +130,8 @@ img{
 }
 
 .contact-link {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     
@@ -194,6 +195,7 @@ img{
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
+    border-color: transparent; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -553,6 +555,7 @@ img{
 
     background: #F5F4FA;
     border-radius: 4px;
+    border-color: transparent;
 }
 
 .filters-btn:hover,
@@ -560,6 +563,7 @@ img{
     color: #FFFFFF;
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 
 .projects-list {
@@ -576,8 +580,8 @@ img{
     text-align: left;
 }
 
-.projects-link:hover,
-.projects-link:focus {
+.projects-item:hover,
+.projects-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -594,6 +598,7 @@ img{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: #212121;
 }
 
 .projects-text {
