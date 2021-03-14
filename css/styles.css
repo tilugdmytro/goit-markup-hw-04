@@ -156,6 +156,7 @@ img{
 
 /* =========== HERO =========== */
 .hero {
+    margin: 0 auto;
     max-width: 1600px;
     height: 600px;
 
@@ -317,8 +318,7 @@ img{
 }
 
 .team-list-content-wrapper {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 32px;
 
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -366,10 +366,7 @@ img{
 
 .social-list {
     display: flex;
-    width: 206px;
-    margin: 0 auto;
     justify-content: space-between;
-    align-items: center;
 }
 
 .social-icon {
@@ -425,11 +422,13 @@ img{
 
 /* =========== FOOTER =========== */
 .footer {
+    padding: 60px 0;
     background-color: #2F303A;
 }
 
 .footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer .logo {
@@ -516,15 +515,7 @@ img{
 
 .footer-wrapper-address {
     margin-right: 70px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.footer-wrapper-social {
-    padding-top: 72px;
-    padding-bottom: 100px;
-}
-       
+}     
 /* =========== END FOOTER =========== */
 
 /* =========== PORTFOLIO =========== */
